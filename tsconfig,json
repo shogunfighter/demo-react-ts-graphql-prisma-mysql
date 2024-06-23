@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "NodeNext",
+    "sourceMap": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "/*include*/": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
